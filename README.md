@@ -1,2 +1,2 @@
-# reekoh_play
+# reekoh_sample
 my take on Reekoh 
