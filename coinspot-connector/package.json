@@ -1,0 +1,38 @@
+{
+  "name": "coinspot-connector",
+  "version": "1.0.0",
+  "description": "Connector to tap into the coinspot account.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "=3.7.2",
+    "jsonfile": "=6.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "=8.2.0",
+    "gulp": "=4.0.2",
+    "gulp-jshint": "=2.1.0",
+    "gulp-json-lint": "=0.1.0",
+    "gulp-mocha": "=7.0.2",
+    "gulp-plumber": "=1.2.1",
+    "gulp-standard": "=14.0.0",
+    "jshint": "=2.12.0",
+    "should": "=13.2.3",
+    "lodash.foreach": "=4.5.0",
+    "lodash.get": "=4.4.2",
+    "lodash.has": "=4.5.2",
+    "lodash.isarray": "=4.0.0",
+    "lodash.isempty": "=4.4.0",
+    "lodash.iserror": "=3.1.1",
+    "lodash.isnil": "=4.0.0",
+    "lodash.isnull": "=3.0.0",
+    "lodash.isnumber": "=3.0.3",
+    "lodash.isplainobject": "=4.0.6",
+    "lodash.isstring": "=4.0.1"
+  }
+}

@@ -1,0 +1,30 @@
+apiVersion: 1.0.0
+kind: Plugin
+metadata:
+  name: coinspot_connector
+  description: Connector to tap into the coinspot account.
+  icon: ./assets/icon.png
+  signupLink: ''
+  type: Connector
+  price: 0
+  tags:
+    - tag01
+    - tag02
+  loadBalancing:
+    protocol: ''
+    sessionAffinity: false
+  release:
+    sdkVersion: 2
+    pluginRootdir: ./
+    version: 1.0.0
+    image: ''
+    notes: ./release-notes/RELEASE-1.0.0.md
+    documentation: ./README.md
+    config:
+      exampleConfig:
+        label: Example Config
+        type: String
+        maxLength: 1000
+        required: true
+        default: Define default value
+        help: This is a sample configuration
